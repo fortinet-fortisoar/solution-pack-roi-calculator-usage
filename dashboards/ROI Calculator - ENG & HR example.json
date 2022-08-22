@@ -1,0 +1,116 @@
+{
+    "@context": "\/api\/3\/contexts\/Dashboard",
+    "@type": "Dashboard",
+    "uuid": "2bc7fd32-1cc6-48b0-bcbb-3a7c09938d4a",
+    "displayName": "ROI Calculator - ENG & HR example",
+    "type": "rows",
+    "templateType": "dashboard",
+    "roles": [
+        "\/api\/3\/roles\/17562d60-b841-4ed7-912b-1ebaf063c8c9",
+        "\/api\/3\/roles\/21d7a7c6-9d68-438f-b732-e8950c5f745b",
+        "\/api\/3\/roles\/a501c11e-15af-49a6-a3a4-88605f32f016",
+        "\/api\/3\/roles\/c5ff8174-b3fa-41c5-b781-2b890b426a80"
+    ],
+    "parentTemplateId": null,
+    "config": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "roiCalculator",
+                                "config": {
+                                    "wid": "7e67a73d-9fe6-4de6-a2a6-d9ca0655c1af",
+                                    "showSavings": "cost",
+                                    "jobCodes": [
+                                        {
+                                            "id": "ENG",
+                                            "perHour": 75
+                                        }
+                                    ],
+                                    "currencyIcon": "fa fa-usd",
+                                    "days": 30,
+                                    "title": "Engineering ROI",
+                                    "includeReferencedPlaybooks": true,
+                                    "onlyIncludeSuccesses": true
+                                }
+                            },
+                            {
+                                "type": "roiCalculator",
+                                "config": {
+                                    "wid": "22b78f57-990c-4a7b-a2fd-8fbd4bd201e0",
+                                    "showSavings": "time",
+                                    "jobCodes": [
+                                        {
+                                            "id": "ENG",
+                                            "perHour": 50
+                                        }
+                                    ],
+                                    "currencyIcon": "fa fa-usd",
+                                    "days": 30,
+                                    "title": "ENG Time Savings",
+                                    "includeReferencedPlaybooks": true,
+                                    "onlyIncludeSuccesses": true
+                                }
+                            }
+                        ],
+                        "style": "col-lg-6"
+                    },
+                    {
+                        "widgets": [
+                            {
+                                "type": "roiCalculator",
+                                "config": {
+                                    "wid": "f4a6361d-299e-43b0-aa06-7d983743afb4",
+                                    "showSavings": "cost",
+                                    "jobCodes": [
+                                        {
+                                            "id": "HR",
+                                            "perHour": 50
+                                        }
+                                    ],
+                                    "currencyIcon": "fa fa-usd",
+                                    "days": 30,
+                                    "title": "HR ROI",
+                                    "includeReferencedPlaybooks": true,
+                                    "onlyIncludeSuccesses": true
+                                }
+                            },
+                            {
+                                "type": "roiCalculator",
+                                "config": {
+                                    "wid": "df1939c3-ed40-4e01-87d9-ce61dc8e9c0e",
+                                    "showSavings": "time",
+                                    "jobCodes": [
+                                        {
+                                            "id": "HR",
+                                            "perHour": 50
+                                        }
+                                    ],
+                                    "currencyIcon": "fa fa-usd",
+                                    "days": 30,
+                                    "title": "HR Time Savings",
+                                    "includeReferencedPlaybooks": true,
+                                    "onlyIncludeSuccesses": true
+                                }
+                            }
+                        ],
+                        "style": "col-lg-6"
+                    }
+                ],
+                "wid": "5f90aa7c-545f-41bd-a378-7b8e2570e99e",
+                "container": true,
+                "_collapsed": false,
+                "collapsible": false,
+                "collapsibleIndex": 0
+            }
+        ],
+        "wid": "ec834d77-403b-4dfa-abda-719402adbb17",
+        "metadata": {
+            "customTemplateTitle": "Dashboard"
+        }
+    },
+    "filterArray": null,
+    "updateDate": 1556259623
+}

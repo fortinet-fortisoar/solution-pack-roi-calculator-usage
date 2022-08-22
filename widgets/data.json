@@ -1,0 +1,9 @@
+[
+    {
+        "name": "roiCalculator",
+        "version": "1.0.0",
+        "title": "ROI Calculator",
+        "install_mode": "rpm",
+        "installer_path": "roiCalculator-1.0.0"
+    }
+]
