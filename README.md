@@ -11,5 +11,5 @@ The **ROI Calculator Usage Solution Pack** demonstrates the usage of the ROI Cal
 
 # Next Steps
 
-| [Installation](https://github.com/cs-christopher-carsey/roi-calculator-usage/blob/develop/docs/setup.md#installation) | [Configuration](https://github.com/cs-christopher-carsey/roi-calculator-usage/blob/develop/docs/setup.md#configuration) | [Usage](https://github.com/cs-christopher-carsey/roi-calculator-usage/blob/develop/docs/usage.md) | [Contents](https://github.com/cs-christopher-carsey/roi-calculator-usage/blob/develop/docs/contents.md) |
+| [Installation](https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.1/docs/setup.md#installation) | [Configuration](https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.1/docs/setup.md#configuration) | [Usage](https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.1/docs/usage.md) | [Contents](https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.1/docs/contents.md) |
 |--------------------------------------------|----------------------------------------------|------------------------|------------------------------|

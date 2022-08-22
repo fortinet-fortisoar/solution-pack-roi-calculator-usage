@@ -1,4 +1,4 @@
-| [Home](https://github.com/cs-christopher-carsey/roi-calculator-usage/blob/develop/README.md) |
+| [Home](https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.1/README.md) |
 |--------------------------------------------|
 
 # Usage
@@ -15,7 +15,7 @@ The dashboards are configured to display the ROI cost savings at $75/hr for the 
 
 Below is an example after ~100 executions of the ENG playbook and ~50 executions of the HR playbook.
 
-<img width="1738" alt="Screen Shot 2022-08-09 at 16 22 39" src="https://user-images.githubusercontent.com/20133402/183756833-c9bca196-c060-4b79-99f9-5460c4e172ae.png">
+![ROI Calculator Dashboard](res/roi-calculator-dashboard.png)
 
 
 ## Next steps
