@@ -1,0 +1,41 @@
+{
+    "name": "roiCalculatorUsage",
+    "version": "1.0.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "ROI Calculator Usage",
+    "dependencies": [],
+    "prerequisite": null,
+    "publisher": "Community",
+    "description": "Demo usage of the ROI Calculator widget that includes the ROI widget, a demo dashboard, and two demo playbooks illustrating how to use tags to better control ROI calculations",
+    "help": null,
+    "category": [
+        "Computing",
+        "Compliance and Reporting",
+        "Utilities"
+    ],
+    "supportInfo": null,
+    "iconLarge": null,
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-08-09T20:34:07+00:00",
+    "contents": {
+        "playbooks": [
+            {
+                "name": "02 - Use Case - ROI Widget Demo"
+            }
+        ],
+        "globalVariables": [],
+        "dashboards": [
+            {
+                "name": "ROI Calculator - ENG & HR example"
+            }
+        ],
+        "widgets": [
+            {
+                "apiName": "roiCalculator",
+                "name": "ROI Calculator",
+                "version": "1.0.0"
+            }
+        ]
+    }
+}
