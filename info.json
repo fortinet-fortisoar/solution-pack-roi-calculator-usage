@@ -8,7 +8,7 @@
     "prerequisite": null,
     "publisher": "Community",
     "description": "Demo usage of the ROI Calculator widget that includes the ROI widget, a demo dashboard, and two demo playbooks illustrating how to use tags to better control ROI calculations",
-    "help": "https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.1/README.md",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.0/README.md",
     "category": [
         "Computing",
         "Compliance and Reporting",
