@@ -2,7 +2,7 @@
     "@context": "\/api\/3\/contexts\/Dashboard",
     "@type": "Dashboard",
     "uuid": "2bc7fd32-1cc6-48b0-bcbb-3a7c09938d4a",
-    "displayName": "ROI Calculator - ENG & HR example",
+    "displayName": "ROI Calculator - Engineering & HR example",
     "type": "rows",
     "templateType": "dashboard",
     "roles": [
@@ -49,7 +49,7 @@
                                     ],
                                     "currencyIcon": "fa fa-usd",
                                     "days": 30,
-                                    "title": "ENG Time Savings",
+                                    "title": "Engineering Time Savings",
                                     "includeReferencedPlaybooks": true,
                                     "onlyIncludeSuccesses": true
                                 }

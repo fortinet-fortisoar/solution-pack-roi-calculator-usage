@@ -12,10 +12,10 @@
 ## Dashboards
 | Dashboard Name | Description |
 | :-              | :-          |
- |`ROI Calculator - ENG & HR example`     | Shows an example dashboard using the ROI Calculator |
+ |ROI Calculator - Engineering & HR example     | Shows an example dashboard using the ROI Calculator |
 
 ## Playbook Collections
-| 02 - Use Case - ROI Widget Demo |
+| 02 - Use Case - ROI Calculator Usage |
 |:-                                      |
 
 |**Playbook Name**|**Description**|
