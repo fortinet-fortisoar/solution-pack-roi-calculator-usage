@@ -6,7 +6,7 @@
     "label": "ROI Calculator Usage",
     "dependencies": [],
     "prerequisite": null,
-    "publisher": "Community",
+    "publisher": "Fortinet",
     "description": "Demo usage of the ROI Calculator widget that includes the ROI widget, a demo dashboard, and two demo playbooks illustrating how to use tags to better control ROI calculations",
     "help": "https://github.com/fortinet-fortisoar/solution-pack-roi-calculator-usage/blob/release/1.0.0/README.md",
     "category": [
@@ -21,12 +21,12 @@
     "contents": {
         "playbooks": [
             {
-                "name": "02 - Use Case - ROI Widget Demo"
+                "name": "02 - Use Case - ROI Calculator Usage"
             }
         ],
         "dashboards": [
             {
-                "name": "ROI Calculator - ENG & HR example"
+                "name": "ROI Calculator - Engineering & HR example"
             }
         ],
         "widgets": [

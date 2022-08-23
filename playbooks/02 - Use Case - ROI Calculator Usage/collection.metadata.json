@@ -1,7 +1,7 @@
 {
     "@context": "\/api\/3\/contexts\/WorkflowCollection",
     "@type": "WorkflowCollection",
-    "name": "02 - Use Case - ROI Widget Demo",
+    "name": "02 - Use Case - ROI Calculator Usage",
     "description": null,
     "visible": true,
     "image": null,

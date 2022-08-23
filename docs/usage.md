@@ -2,9 +2,9 @@
 |--------------------------------------------|
 
 # Usage
-- Navigate to the newly created dashboard "ROI Calculator - ENG & HR example". This dashboard will show $0 cost savings for both ENG and HR roles.
+- Navigate to the newly created dashboard "ROI Calculator - Engineering & HR example". This dashboard will show $0 cost savings for both ENG and HR roles.
 
-- Navigate to the newly added playbooks in the "02 - Use Case - ROI Widget Demo" playbook collection.
+- Navigate to the newly added playbooks in the "02 - Use Case - ROI Calculator Usage" playbook collection.
 
 - Run the playbooks in the included collection several times each using the playbook execute button inside the playbook designer. 
 Each execution of the "Example ENG playbook" adds 30 minutes to the ENG job code, as defined by the roi-eng-30 tag. Each execution of the "Example HR playbook" adds 20 minutes, as defined by the roi-hr-20 tag.
