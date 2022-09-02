@@ -9,8 +9,8 @@
 
 ## Prerequisites
 
-Not Applicable
+Installation of this solution pack is not dependent on any of the other solution packs.
 
 # Configuration 
 The **ROI Calculator Usage** solution pack uses the **ROI Calculator** widget.
-- The widget comes pre-installed and pre-configured for the playbooks provided with this solution pack. To configure **ROI Calculator** widget for your playbooks, refer to [Configuring ROI Calculator](https://fortisoar.contenthub.fortinet.com/detail.html?entity=roiCalculator&version=1.0.0&type=widget).
+- The widget comes pre-installed and pre-configured for the playbooks provided with this solution pack. To configure **ROI Calculator** widget for your playbooks, refer to [Configuring ROI Calculator](https://github.com/fortinet-fortisoar/widget-roi-calculator/blob/release/1.0.0/README.md).

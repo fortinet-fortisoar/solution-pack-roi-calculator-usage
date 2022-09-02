@@ -3,11 +3,11 @@
 * **Version**:  1.0.0
 * **Certified**: No
 * **Publisher**: Fortinet
-* **Compatible Version**: FortiSOAR v7.2.0 and above
+* **Compatible Version**: FortiSOAR v7.2.0 and later
 
 # Overview
 
-The **ROI Calculator Usage Solution Pack** demonstrates the usage of the ROI Calculator widget, demonstrating how you can control ROI calculations by using time estimates for playbooks and job-code based cost savings.
+The **ROI Calculator Usage** Solution Pack demonstrates the usage of the ROI Calculator widget to perform ROI calculations using time estimates for playbooks and job-code based cost savings.
 
 # Next Steps
 
