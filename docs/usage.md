@@ -2,12 +2,12 @@
 |--------------------------------------------|
 
 # Usage
-- Navigate to the newly created dashboard "ROI Calculator - Engineering & HR example". This dashboard will show $0 cost savings for both ENG and HR roles.
+- Navigate to the newly created dashboard **ROI Calculator - Engineering & HR example**. This dashboard will show $0 cost savings for both ENG and HR roles.
 
-- Navigate to the newly added playbooks in the "02 - Use Case - ROI Calculator Usage" playbook collection.
+- Navigate to the newly added playbooks in the **02 - Use Case - ROI Calculator Usage** playbook collection.
 
-- Run the playbooks in the included collection several times each using the playbook execute button inside the playbook designer. 
-Each execution of the "Example ENG playbook" adds 30 minutes to the ENG job code, as defined by the roi-eng-30 tag. Each execution of the "Example HR playbook" adds 20 minutes, as defined by the roi-hr-20 tag.
+- Run the playbooks in the included collection several times each using the playbook execute button inside the playbook designer.<br/>
+Each execution of the **Example ENG playbook** adds 30 minutes to the ENG job code, as defined by the roi-eng-30 tag. Each execution of the **Example HR playbook** adds 20 minutes, as defined by the roi-hr-20 tag.
 
 - Return to the dashboard and refresh. The cost savings should populate depending on how many times you run the playbooks.
 
@@ -18,9 +18,11 @@ Each execution of the "Example ENG playbook" adds 30 minutes to the ENG job code
     ![ROI Calculator Dashboard](res/roi-calculator-dashboard.png)
 
 
-## Next steps
+## Customize
+
 Implement your own use case:
+
 - Change the job codes to match your needs
-- Add the 'roi' and 'roi-\<JobCode\>-\<minutes\>' tags to your playbooks to estimate how long it takes the JobCode to complete the same task manually (in minutes).
-- Change it up by adding multiple tags to a playbook - e.g. roi, roi-eng-20, roi-hr-15 to represent 20 minutes of ENG time and 15 minutes of HR time.
+- Add the `roi` and `roi-<JobCode>-<minutes>` tags to your playbooks to estimate how long it takes the JobCode to complete the same task manually (in minutes). For example, the tag `roi-eng-20` represents 20 minutes of engineering time.
+- Change it up by adding multiple tags to a playbook - e.g. `roi`, `roi-hr-15` to represent 15 minutes of HR time
 - Change up the dashboard by adding multiple job codes to a single ROI widget configuration to calculate the total of all listed job codes
