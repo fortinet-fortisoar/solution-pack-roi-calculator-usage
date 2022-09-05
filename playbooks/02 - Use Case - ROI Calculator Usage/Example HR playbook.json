@@ -1,0 +1,79 @@
+{
+    "@type": "Workflow",
+    "triggerLimit": null,
+    "name": "Example HR playbook",
+    "aliasName": null,
+    "tag": null,
+    "description": "This playbook replaces 20 minutes of HR work for ROI purposes",
+    "isActive": true,
+    "debug": false,
+    "singleRecordExecution": false,
+    "remoteExecutableFlag": false,
+    "parameters": [],
+    "synchronous": false,
+    "collection": "\/api\/3\/workflow_collections\/656f9f46-947c-4ad4-9e26-3503b220c111",
+    "versions": [],
+    "triggerStep": "\/api\/3\/workflow_steps\/7dedf01c-a579-413c-85db-70a34361643e",
+    "steps": [
+        {
+            "@type": "WorkflowStep",
+            "name": "Start",
+            "description": null,
+            "arguments": {
+                "route": "025b9e1c-294d-46b7-b029-fe53532b214e",
+                "resources": [
+                    "alerts"
+                ],
+                "inputVariables": [],
+                "step_variables": {
+                    "input": {
+                        "params": [],
+                        "records": "{{vars.input.records}}"
+                    }
+                },
+                "executeButtonText": "Execute",
+                "noRecordExecution": true,
+                "singleRecordExecution": false
+            },
+            "status": null,
+            "top": "30",
+            "left": "125",
+            "stepType": "\/api\/3\/workflow_step_types\/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
+            "group": null,
+            "uuid": "7dedf01c-a579-413c-85db-70a34361643e"
+        },
+        {
+            "@type": "WorkflowStep",
+            "name": "Do something",
+            "description": null,
+            "arguments": [],
+            "status": null,
+            "top": "165",
+            "left": "125",
+            "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+            "group": null,
+            "uuid": "b1a83c45-9d54-4b45-a37f-dfb2aef73820"
+        }
+    ],
+    "routes": [
+        {
+            "@type": "WorkflowRoute",
+            "name": "Start -> Do something",
+            "targetStep": "\/api\/3\/workflow_steps\/b1a83c45-9d54-4b45-a37f-dfb2aef73820",
+            "sourceStep": "\/api\/3\/workflow_steps\/7dedf01c-a579-413c-85db-70a34361643e",
+            "label": null,
+            "isExecuted": false,
+            "uuid": "ee179265-f252-403c-880f-ccfdc64e93a2"
+        }
+    ],
+    "groups": [],
+    "priority": null,
+    "uuid": "21509164-f319-4d74-80d2-aa50ab319df2",
+    "owners": [],
+    "isPrivate": false,
+    "deletedAt": null,
+    "recordTags": [
+        "ROI",
+        "ROI_HR_20"
+    ]
+}

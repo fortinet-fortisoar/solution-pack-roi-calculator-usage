@@ -1,0 +1,11 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "02 - Use Case - ROI Calculator Usage",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "656f9f46-947c-4ad4-9e26-3503b220c111",
+    "deletedAt": null,
+    "recordTags": []
+}
